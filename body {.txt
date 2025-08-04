@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: white;
+  background: url('wallpaper.jpg') no-repeat center center/cover;
+  text-align: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: -1;
+}
+
+header {
+  padding: 30px 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #00ff88;
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: #00ff88;
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.2em;
+  color: #f8f8f8;
+}
+
+.follow-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #e63946;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.follow-btn:hover {
+  background: #ff4757;
+}
+
+.gallery {
+  padding: 30px 15px;
+}
+
+.gallery h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #00ff88;
+}
+
+.instagram-widget {
+  width: 90%;
+  max-width: 800px;
+  height: 600px;
+  border: none;
+}

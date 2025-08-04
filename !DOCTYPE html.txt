@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joyboi Luffy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="overlay"></div>
+  
+  <header>
+    <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+    <h1>@joyboi_luffy</h1>
+    <p>Noob editor who edits for fun</p>
+    <a class="follow-btn" href="https://www.instagram.com/joyboi_luffy" target="_blank">Follow on Instagram</a>
+  </header>
+
+  <section class="gallery">
+    <h2>My Latest Edits</h2>
+    <!-- Instagram Feed Embed -->
+    <iframe src="https://lightwidget.com/widgets/your-widget-id.html" 
+            scrolling="no" 
+            allowtransparency="true" 
+            class="instagram-widget"></iframe>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by Joyboi Luffy</p>
+  </footer>
+</body>
+</html>
